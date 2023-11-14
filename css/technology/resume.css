@@ -2,9 +2,12 @@
   color: black;
   font-family: Calibri, Arial, sans-serif;
   font-size: 12pt;
-  border: 2px solid black; /* Set border style and color */
+  border: 3px solid #000000; /* Set border style and color */
   padding: 10px;
-}
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 10px;
+} 
 
 .resume-header {
   display: flex;
