@@ -23,8 +23,9 @@
 
 /* Styles for images within the logo in the header */
 .header .logo img {
+  margin-top: 30px;
   width: auto;
-  height: auto;
+  height: 100px;
 }
 
 /* Styles for the address within the header */
