@@ -133,7 +133,7 @@
   /* Add other styles if needed */
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .menu-item {
     display: flex;
     align-items: center;
@@ -173,6 +173,10 @@
   #menu_control {
     left: 70px;
     top: 5px;
+  }
+
+  .menu-item.child {
+    padding-right: 30px;
   }
 
 }

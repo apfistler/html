@@ -24,6 +24,7 @@
 /* Styles for images within the logo in the header */
 .header .logo img {
   margin-top: 30px;
+  margin-left: 15px;
   width: auto;
   height: 100px;
 }
@@ -70,18 +71,26 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1280px) {
-  .header .logo img {
-    width: 500px; /* Adjust the width of the logo for mobile devices */
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .header .logo img { 
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 400px; /* Adjust the width of the logo for mobile devices */
+    height: auto;
   }
 
-  .header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+//  .header {
+//    flex-direction: column;
+//    align-items: flex-start;
+//    heigth: 90px;
+//  }
 
   .logo {
     margin-bottom: 10px;
+  }
+
+  .address_div {
+    left: 50px;
   }
 
   .address {
