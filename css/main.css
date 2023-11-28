@@ -53,6 +53,13 @@ td {
   font-size: 11pt;
 }
 
+strong {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.2em;
+  color: #007777;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .main {
     font-size: 28px; 
